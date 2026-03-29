@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Tanishq Goyal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">TG</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>A collection of my work and creations</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Hackathon Project">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?project=hackathon" class="overlay-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-tag hackathon">Hackathon</span>
+                            <div class="project-links">
+                                <a href="https://github.com/TanishqGoyal05/MoodMate" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>Mood Mate</h3>
+                        <p>
+                        Participated in a 24-hour hackathon where we built a website that suggested music, Youtube videos and qoutes depending on the user's mood. 
+                        Collaborated with a team of 3 developers and implemented features using 
+                        React, Node.js, and MongoDB.
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <a href="project-detail.html?project=hackathon" class="btn btn-small">View Full Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Workshop Project">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?project=workshop" class="overlay-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-tag workshop">Workshop</span>
+                            <div class="project-links">
+                                <a href="https://github.com/TanishqGoyal05/AR_VR-Project" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>Star Shooter: An Immersive WebVR Experience</h3>
+                        <p>
+                            An interactive web application developed during YISL Workshop. This project 
+                            demonstrates proficiency in frontend development and API integration with 
+                            smooth animations and user-friendly interface.
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>REST API</span>
+                        </div>
+                        <a href="project-detail.html?project=workshop" class="btn btn-small">View Full Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Blockchain Project">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?project=blockchain" class="overlay-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-tag blockchain">Blockchain </span>
+                            <div class="project-links">
+                                <a href="https://github.com/TanishqGoyal05/gdg_blockchain_assignment/tree/personal-locker-assignment" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>Blockchain Smart Contract Development Challenge</h3>
+                        <p>
+                            A decentralized platform built as part of a technical assessment. 
+                            Features smart contract development, Web3 integration, and secure transaction 
+                            handling on the Ethereum blockchain.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Solidity</span>
+                            <span>Hardhat</span>
+                            <span>Ethers.js</span>
+                            <span>React</span>
+                        </div>
+                        <a href="project-detail.html?project=blockchain" class="btn btn-small">View Full Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+        <p>&copy; Tanishq's Portfolio Webite</p>
+        <p>Built with HTML, CSS & JavaScript </p></p>
+            <div class="footer-links">
+                <a href="https://github.com/TanishqGoyal05" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/tanishq-23-goyal/" target="_blank">LinkedIn</a>
+                <a href="mailto:tanishq23goyal@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
