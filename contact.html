@@ -47,18 +47,19 @@
                 <div class="contact-form-container">
                     <h2>Send Me a Message</h2>
                     
-                    <!-- FORM WITH FORMSUBMIT (No Signup Needed) -->
+                    <!-- FORM WITH FORMSUBMIT -->
                     <form 
                         action="https://formsubmit.co/el/xenene" 
                         method="POST"
                     >
-                        <!-- FormSubmit Hidden Fields -->
+                        <!-- Hidden Fields for FormSubmit -->
                         <input type="hidden" name="_subject" value="New Portfolio Message!">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
+                        <!-- Update _next URL to the current contact page with success=true -->
                         <input type="hidden" name="_next" value="https://tanishqgoyal.vercel.app/contact.html?success=true">
                         
-                        <!-- Honeypot Field for Spam Protection -->
+                        <!-- Honeypot for spam protection -->
                         <input type="text" name="_honey" style="display:none">
                         
                         <!-- Form Fields -->
